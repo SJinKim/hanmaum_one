@@ -1,12 +1,15 @@
-const {createPool} = require('mysql')
+var mysql = require('mysql')
 
-const pool = createPool({
- host: "https://w01890cf.kasserver.com/mysqladmin/kaslogin.php",
+var con = mysql.createConnection({
+ host: "localhost",
  user: "d0391dc4",
- password: "2hgXnYYTmySkEku",
- connectionLimit: 10
+ password: "2hgXnYYTmyKSkEku",
 })
 
-pool.query(`select mName from d0391dc4.member`, (err, res) => {
- return console.log(res)
+con.connect(function(err){
+ if(err) throw err;
+ console.log("Connected")
 })
+
+// pool.query(`select mName from d0391dc4.member`, (err, res) => {
+//  return console.log(res)
