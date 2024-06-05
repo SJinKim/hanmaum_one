@@ -11,7 +11,7 @@ import SwiftUI
 struct Hanmaum_1to1App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
