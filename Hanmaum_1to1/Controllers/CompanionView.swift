@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CompanionView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("동반자")
     }
 }
 

@@ -7,6 +7,15 @@
 
 import Foundation
 
-struct User : Codable {
+struct User : Codable, Hashable, Identifiable {
+    let id: UUID
     let name: String
+    let email: String
+    let birthdayDate: Date
+    let startDate: Date
+    let endDate: Date
+    let progressStatus: String
+    let partnerUser: String
+    let christening: String
 }
+

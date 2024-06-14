@@ -9,7 +9,7 @@ import SwiftUI
 
 struct MainView: View {
     var body: some View {
-        HomeView()
+        accountView
     }
     @ViewBuilder
     var accountView: some View {
@@ -17,7 +17,15 @@ struct MainView: View {
         TabView {
             HomeView()
                 .tabItem {
-                    Label("Home", image: "house")
+                    Label("홈", systemImage: "house")
+                }
+            ProfileView()
+                .tabItem {
+                    Label("프로필", systemImage: "person.circle")
+                }
+            UserTableView()
+                .tabItem {
+                    Label("동반자 목록", systemImage: "person.2.fill")
                 }
         }
     }

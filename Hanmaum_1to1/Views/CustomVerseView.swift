@@ -17,12 +17,23 @@ struct CustomVerseView: View {
             Text(title)
                 .font(.title2)
                 .bold()
+                .foregroundStyle(Color(.hanmumMainText))
+                .padding(.bottom, 5)
             Text(verse_1)
             if verse_2 != "" {
                 Text(verse_2)
             }
         }
         .padding()
+        .overlay(
+            Rectangle()
+                .fill(Color(.hanmaumMain))
+                .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 2)
+                .opacity(0.5)
+                .offset(y: 10)
+            , alignment: .bottom
+        )
+        .padding(.bottom, 10)
     }
 }
 

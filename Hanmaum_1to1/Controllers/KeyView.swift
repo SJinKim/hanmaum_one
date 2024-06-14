@@ -9,6 +9,7 @@ import SwiftUI
 
 struct KeyView: View {
     @StateObject var viewModel = KeyViewViewModel()
+    
     var body: some View {
         let imageName = "key"
         Button {

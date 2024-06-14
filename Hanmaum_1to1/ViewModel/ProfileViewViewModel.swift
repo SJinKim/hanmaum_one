@@ -11,4 +11,12 @@ class ProfileViewViewModel: ObservableObject {
     @Published var user: User? = nil
     
     init() {}
+    
+    func fetchUser() {
+        return
+    }
+    
+    func logOut() {
+        return
+    }
 }

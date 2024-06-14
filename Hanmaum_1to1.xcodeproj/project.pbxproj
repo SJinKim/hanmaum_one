@@ -26,6 +26,12 @@
 		3C45A5452C107BDF00F3A020 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C45A5442C107BDF00F3A020 /* CustomImageView.swift */; };
 		3C45A5472C1082E100F3A020 /* KeyViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C45A5462C1082E100F3A020 /* KeyViewViewModel.swift */; };
 		3C45A54B2C1087AA00F3A020 /* CustomVerseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C45A54A2C1087AA00F3A020 /* CustomVerseView.swift */; };
+		3C4E9E1A2C15D8C600957D37 /* Belong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4E9E192C15D8C600957D37 /* Belong.swift */; };
+		3CBE08022C1C95780065F3A7 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBE08012C1C95780065F3A7 /* UserListView.swift */; };
+		3CBE08042C1C96140065F3A7 /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBE08032C1C96140065F3A7 /* UserDetailView.swift */; };
+		3CBE08062C1C97C70065F3A7 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBE08052C1C97C70065F3A7 /* Playlist.swift */; };
+		3CBE08082C1C99CF0065F3A7 /* UserTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBE08072C1C99CF0065F3A7 /* UserTableView.swift */; };
+		3CBE080A2C1C9B590065F3A7 /* UserCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBE08092C1C9B590065F3A7 /* UserCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +55,12 @@
 		3C45A5442C107BDF00F3A020 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 		3C45A5462C1082E100F3A020 /* KeyViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyViewViewModel.swift; sourceTree = "<group>"; };
 		3C45A54A2C1087AA00F3A020 /* CustomVerseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVerseView.swift; sourceTree = "<group>"; };
+		3C4E9E192C15D8C600957D37 /* Belong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Belong.swift; sourceTree = "<group>"; };
+		3CBE08012C1C95780065F3A7 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		3CBE08032C1C96140065F3A7 /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
+		3CBE08052C1C97C70065F3A7 /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
+		3CBE08072C1C99CF0065F3A7 /* UserTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableView.swift; sourceTree = "<group>"; };
+		3CBE08092C1C9B590065F3A7 /* UserCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +115,9 @@
 			isa = PBXGroup;
 			children = (
 				3C45A52A2C10665700F3A020 /* User.swift */,
+				3C4E9E192C15D8C600957D37 /* Belong.swift */,
+				3CBE08052C1C97C70065F3A7 /* Playlist.swift */,
+				3CBE08092C1C9B590065F3A7 /* UserCard.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -118,6 +133,7 @@
 				3C45A5362C106BAF00F3A020 /* CompanionView.swift */,
 				3C45A5382C106BEA00F3A020 /* YangyukView.swift */,
 				3C45A53A2C106E5600F3A020 /* KeyView.swift */,
+				3CBE08072C1C99CF0065F3A7 /* UserTableView.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -139,6 +155,8 @@
 				3C45A5422C10741000F3A020 /* CustomButtonView.swift */,
 				3C45A5442C107BDF00F3A020 /* CustomImageView.swift */,
 				3C45A54A2C1087AA00F3A020 /* CustomVerseView.swift */,
+				3CBE08012C1C95780065F3A7 /* UserListView.swift */,
+				3CBE08032C1C96140065F3A7 /* UserDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -222,13 +240,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C4E9E1A2C15D8C600957D37 /* Belong.swift in Sources */,
 				3C45A54B2C1087AA00F3A020 /* CustomVerseView.swift in Sources */,
+				3CBE08022C1C95780065F3A7 /* UserListView.swift in Sources */,
 				3C45A5472C1082E100F3A020 /* KeyViewViewModel.swift in Sources */,
 				3C45A5432C10741000F3A020 /* CustomButtonView.swift in Sources */,
 				3C45A53B2C106E5600F3A020 /* KeyView.swift in Sources */,
+				3CBE08082C1C99CF0065F3A7 /* UserTableView.swift in Sources */,
 				3C45A53D2C10700100F3A020 /* MainViewViewModel.swift in Sources */,
 				3C45A5372C106BAF00F3A020 /* CompanionView.swift in Sources */,
+				3CBE08042C1C96140065F3A7 /* UserDetailView.swift in Sources */,
 				3C45A52D2C106A8800F3A020 /* MainView.swift in Sources */,
+				3CBE080A2C1C9B590065F3A7 /* UserCard.swift in Sources */,
 				3C45A5352C106B6000F3A020 /* VerseView.swift in Sources */,
 				3C45A53F2C10706300F3A020 /* LoginViewViewModel.swift in Sources */,
 				3C45A5182C10605200F3A020 /* Hanmaum_1to1App.swift in Sources */,
@@ -236,6 +259,7 @@
 				3C45A5312C106AD200F3A020 /* HomeView.swift in Sources */,
 				3C45A52F2C106AB400F3A020 /* LoginView.swift in Sources */,
 				3C45A5392C106BEA00F3A020 /* YangyukView.swift in Sources */,
+				3CBE08062C1C97C70065F3A7 /* Playlist.swift in Sources */,
 				3C45A5412C10707500F3A020 /* ProfileViewViewModel.swift in Sources */,
 				3C45A5332C106B4900F3A020 /* ProfileView.swift in Sources */,
 				3C45A52B2C10665700F3A020 /* User.swift in Sources */,
